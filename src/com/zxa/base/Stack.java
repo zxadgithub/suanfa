@@ -7,8 +7,10 @@ import java.util.Iterator;
  * 栈
  */
 
+
 public class Stack<Item> implements Iterable<Item> {
     private Node first;
+    
     private int N;
     private class Node{
         Item item;
