@@ -5,6 +5,7 @@ import java.util.Iterator;
 /**
  * Created by 张新安 on 2017/8/28.
  */
+
 public class Bag<Item> implements Iterable<Item> {
     
     private Node first;

@@ -6,6 +6,7 @@ import java.util.Iterator;
  * Created by 张新安 on 2017/8/28.
  * 先进后出队列
  */
+
 public class queue<Item> implements Iterable<Item> {
     private Node first;
     private Node last;

@@ -6,6 +6,7 @@ import java.util.Iterator;
  * Created by 张新安 on 2017/8/28.
  * 栈
  */
+
 public class Stack<Item> implements Iterable<Item> {
     private Node first;
     private int N;
