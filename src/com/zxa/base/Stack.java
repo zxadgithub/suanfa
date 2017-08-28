@@ -17,7 +17,7 @@ public class Stack<Item> implements Iterable<Item> {
     public boolean isEmpty(){
         return first == null;
     }
-    public int sizr(){
+    public int size(){
         return N;
     }
     public void push(Item item){
